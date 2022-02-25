@@ -3,14 +3,13 @@ package practice_stringProgrtam;
 public class recursion_program {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int i,number = 5;
-		int factorial;
 		
-		factorial=fact(number);
-		System.out.println(factorial);
+		System.out.println(fact(5));
+		
+	
 	}
-	static int fact(int no) {
+		
+		static int fact(int no) {
 		
 		if(no==0)
 		{
