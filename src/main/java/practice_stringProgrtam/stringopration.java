@@ -78,7 +78,7 @@ public class stringopration {
 				}
 			}
 			  if(count > 1 && words[i] != "0")    
-	                System.out.println(words[i]);    
+	                System.out.println("find duplicate = "+words[i]+count);    
 		}
 	
 	}
